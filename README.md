@@ -79,6 +79,7 @@ This will create a new todo list called "mylist" and store it in a SQLite databa
 ```
 .
 ├── README.md
+├── LICENCE : contains MIT LICENCE
 ├── setup.py : Setup file to create distribution packages
 └── todo : The todo package
     ├── __init__.py
