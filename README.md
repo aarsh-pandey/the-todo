@@ -23,12 +23,13 @@ To use the todo, all you have to do is open terminal and type:
 python -m todo
 ```
 
-The todo app has following options available to manage tasks :
 
 ## Description <a name="description"></a>
 This is a simple command-line todo app built in Python. It allows you to add, view, mark as completed, and remove tasks from a todo list using a terminal interface.
 
 ### Options :
+
+The todo app has following options available to manage tasks :
 ```markdown
 1. add  : Add task
 2. ls   : View tasks
@@ -67,12 +68,12 @@ Task removed successfully!
 
 ## Customization <a name="customization"></a>
 
-By default, the app creates a todo list called "todo" and stores it in a SQLite database at ~/.todos/todo.db. However, you can specify a different name for the list by using the -n or --name option:
+By default, the app creates a todo list called "todo" and stores it in a SQLite database at `~/.todos/todo.db`. However, you can specify a different name for the list by using the -n or --name option:
 
 ```bash
 python -m todo --name mylist
 ```
-This will create a new todo list called "mylist" and store it in a SQLite database at ~/.todos/mylist.db.
+This will create a new todo list called "mylist" and store it in a SQLite database at `~/.todos/mylist.db`.
 
 ## File Description <a name="files"></a>
 
